@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import clsx from 'clsx';
+import { cn } from '@/lib/utils';
 
 const Container = ({
   children,
@@ -9,7 +9,7 @@ const Container = ({
   className?: string;
 }) => {
   return (
-    <div className={clsx('max-w-[120rem] mx-auto px-8', className)}>
+    <div className={cn('max-w-[120rem] mx-auto px-8', className)}>
       {children}
     </div>
   );

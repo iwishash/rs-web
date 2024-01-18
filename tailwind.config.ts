@@ -109,7 +109,7 @@ const config = {
         'grey-dark': '#222326',
         'primary-text': '#f7f8f8',
         'secondary-text': '#b4bcd0',
-        'transparent-white': 'rgba(255,255,255,0.08)',
+        'transparent-white': 'rgba(255,255,255,0.12)',
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         // background: "hsl(var(--background))",
@@ -155,7 +155,9 @@ const config = {
         'radial-gradient':
           'radial-gradient(circle at bottom center,var(--color),transparent 70%)',
         'glass-gradient':
-          'linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 100%)',
+          'linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 100%)',
+        'glass2-gradient':
+          'linear-gradient(rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.2) 100%)',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -174,6 +176,10 @@ const config = {
         'fade-in': {
           from: { opacity: '0', transform: 'translateY(-10px)' },
           to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        'fade-in-up':{
+          from: { opacity: '0', transform: 'translateY(10px)' },
+          to: { opacity: '1', transform: 'translateY(0)'}
         },
         'image-rotate': {
           '0%': { transform: 'rotateX(25deg)' },
@@ -218,6 +224,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         'fade-in':
         'fade-in 1000ms var(--animation-delay, 0ms) ease-in-out forwards',
+        'fade-in-up': 'fade-in-up 1000ms var(--animation-delay, 0ms) ease-in-out forwards',
         'image-rotate': 'image-rotate 1400ms ease forwards',
         'image-glow': 'image-glow 4100ms 600ms ease-out forwards',
         'sketch-lines': 'sketch-lines 1200ms ease-out forwards',

@@ -34,9 +34,9 @@ const buttonClasses = cva('rounded-lg inline-flex items-center justify-center', 
       tertiary: '',
     },
     size: {
-      small: 'text-xs px-3 h-7',
-      medium: 'text-sm px-4 h-8',
-      large: 'text-md px-6 py-4 h-[6rem]',
+      small: 'text-xs px-[2rem] h-[2rem]',
+      medium: 'text-sm px-[2rem] h-[4rem]',
+      large: 'text-md px-[4rem] py-[2rem] h-[5rem]',
     },
   },
   defaultVariants: {

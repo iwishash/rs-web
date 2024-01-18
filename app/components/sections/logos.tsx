@@ -25,13 +25,13 @@ export default function Logos({className}:LogosProps) {
         <li>
           <ChoongbookLogo />
         </li>
-        <li>
+        <li className="mt-3">
           <EhwaLogo />
         </li>
         <li>
           <JejuLogo />
         </li>
-        <li>
+        <li className="mt-4">
           <KoreaLogo />
         </li>
       </ul>
@@ -47,13 +47,13 @@ export default function Logos({className}:LogosProps) {
         <li>
           <ChoongbookLogo />
         </li>
-        <li>
+        <li className="mt-3">
           <EhwaLogo />
         </li>
         <li>
           <JejuLogo />
         </li>
-        <li>
+        <li className="mt-4">
           <KoreaLogo />
         </li>
       </ul>

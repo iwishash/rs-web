@@ -1,0 +1,28 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<svg id="b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.63 315.42">
+  <g id="c">
+  <path d="M6.62,11.03L153.59,1.6c5.6-.36,11.22.2,16.62,1.72,7.08,2,16.27,5.68,22.12,12.2,1.8,2,2.79,4.59,2.81,7.27.19,32.36-6.14,232.74-6.99,259.45-.05,1.72-1.3,3.17-2.99,3.49l-147.08,28.06c-1.34.26-2.72.09-3.97-.47-3.42-1.54-10.65-4.97-15.82-8.67-3.64-3.03-7.34-7.46-9.46-10.15-1.15-1.46-1.8-3.25-1.83-5.12L1.5,17.17c0-.53.12-2.15.36-2.62l.64-1.3c.98-1.31,2.49-2.12,4.12-2.23Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M34.1,313.34L31.35,31.65c-.05-2.04,1.53-3.75,3.57-3.86l160.13-8.6" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M43.79,39.35l141.42-10.51-2.61,97.74s-20.62,6.4-34.83,8.15c-7.92.97-19.71-3.86-33.75-2.33-16.26,1.77-16.05,8.98-34.09,10.7-9.64,1.6-33.09-.65-35.25-.39-.01-1.91-.89-103.35-.89-103.35Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M44.68,142.71c0-2.66-.89-103.35-.89-103.35l139.56-10.37" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <polygon points="55.1 58.35 171.26 48.6 171.26 114.22 56.2 127.3 55.1 58.35" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <path d="M161.09,280.57c3.33-1.61,6.21-3.66,8.61-5.77,5.71-4.99,8.92-12.25,9.08-19.83.62-28.64,2.46-113.75,2.46-121.02-4.09,0-14.8,4.53-16.42,5.23-.14.06-.29.11-.44.15l-27.02,6.86c-.39.1-.8-.08-1.01-.42-1.22-2.02-6.16-8.46-19.63-8.27s-21.28,11.3-23.37,14.74c-.38.62-1.07.98-1.79.94l-27.17-1.5-19.72-1.09s1.11,131.7,1.55,136.12c.31,3.06,2.4,6.39,5.67,9.3,3.02,2.68,7.12,3.78,11.12,3.16,19.96-3.07,88.14-13.8,98.07-18.6Z" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <ellipse cx="115.78" cy="161.28" rx="12.92" ry="14.54" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="70.92" cy="172.39" r="11.11" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="94.61" cy="190.53" r="9.42" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <ellipse cx="135.36" cy="184.39" rx="8.77" ry="9.59" transform="translate(-10.65 8.31) rotate(-3.38)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <ellipse cx="157.55" cy="160.76" rx="9.79" ry="11.31" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="69.99" cy="220.99" r="10.18" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="100.28" cy="228" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="128.69" cy="222.84" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="157.55" cy="207.64" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="157.55" cy="243.48" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="128.69" cy="259.24" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="100.28" cy="264.42" r="9.71" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <circle cx="70.49" cy="258.52" r="10.2" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="69.99" y1="231.17" x2="69.99" y2="248.32" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="100.28" y1="237.71" x2="100.28" y2="254.72" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="128.69" y1="232.55" x2="128.69" y2="249.53" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  <line x1="157.55" y1="217.35" x2="157.55" y2="233.77" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
