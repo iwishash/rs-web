@@ -9,6 +9,9 @@ export default function SectionSolution() {
     <>
         <div className="flex flex-col items-center justify-center gap-10 pb-[12.8rem]">
           <SolutionTitle>연하장애 치료 솔루션</SolutionTitle>
+          <p className="mx-auto text-lg text-secondary-text mt-12">
+            RS REHAB은 연하장애 환자의 상태 데이터 수집, 분석, 치료, 모니터링을 통해 연하장애 치료 토탈 솔루션을 제공합니다. 
+          </p>
           <div className="flex flex-col items-center justify-center w-full gap-4 pt-14">
             <SolutionCard className="flex justify-start gap-12 divide-x divide-transparent-white">
               <div className="flex justify-center">

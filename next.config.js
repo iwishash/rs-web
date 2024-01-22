@@ -29,6 +29,15 @@ const nextConfig = {
   //     },
   //   },
   // },
+  async redirects() {
+    return [
+      {
+        source: "/product",
+        destination: "/product/rs-stim",
+        permanent: true,
+      },
+    ];
+  }
 };
 
 module.exports = nextConfig;

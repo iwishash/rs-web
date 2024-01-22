@@ -197,7 +197,7 @@ const config = {
             'animation-timing-function': 'cubic-bezier(0.12, 0.01, 0.08, 0.99)',
           },
           '100%': {
-            opacity: '0.2',
+            opacity: '0.6',
           },
         },
         'sketch-lines': {

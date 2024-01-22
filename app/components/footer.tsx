@@ -7,42 +7,27 @@ const footerLinks = [
   {
     title: 'Product',
     Links: [
-      { title: 'Features', href: '#' },
-      { title: 'Integrations', href: '#' },
-      { title: 'Pricing', href: '#' },
-      { title: 'Changelog', href: '#' },
-      { title: 'Docs', href: '#' },
-      { title: 'Linear Method', href: '#' },
-      { title: 'Download', href: '#' },
+      { title: 'RS-STIM', href: '#' },
+      { title: 'RS-DETECTION', href: '#' },
+      { title: 'AKAS-01', href: '#' },
+      { title: 'RS-PROTECTHIP', href: '#' },
+    ],
+  },
+  {
+    title: '연구성과',
+    Links: [
+      { title: '연구성과#1', href: '#' },
+      { title: '연구성과#2', href: '#' },
+      { title: '연구성과#3', href: '#' },
     ],
   },
   {
     title: 'Company',
     Links: [
-      { title: 'About us', href: '#' },
-      { title: 'Blog', href: '#' },
-      { title: 'Careers', href: '#' },
-      { title: 'Customers', href: '#' },
-      { title: 'Brand', href: '#' },
-    ],
-  },
-  {
-    title: 'Resources',
-    Links: [
-      { title: 'Community', href: '#' },
-      { title: 'Contact', href: '#' },
-      { title: 'DPA', href: '#' },
-      { title: 'Privacy Policy', href: '#' },
-      { title: 'Terms of service', href: '#' },
-      { title: 'Report a vulnerability', href: '#' },
-    ],
-  },
-  {
-    title: 'Developers',
-    Links: [
-      { title: 'API', href: '#' },
-      { title: 'Status', href: '#' },
-      { title: 'GitHub', href: '#' },
+      { title: 'About Us', href: '#' },
+      { title: 'People', href: '#' },
+      { title: 'Contact Us', href: '#' },
+      { title: '위치', href: '#' },
     ],
   },
 ];
@@ -54,8 +39,7 @@ const Footer = () => {
         <div>
           <div className='flex flex-row justify-between h-full lg:flex-col'>
             <div className='flex items-center text-grey'>
-              <Logo className='h-4' />
-              <span className='text-sm'>- Designed Wordwide</span>
+              <Logo className='h-10' />
             </div>
             <div className='flex mt-auto gap-x-3 text-grey'>
               <Twitter size={18} />

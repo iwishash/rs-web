@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from './components/header';
 import Footer from './components/footer';
+import { cn } from '@/lib/utils';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,7 +25,7 @@ export default function RootLayout({
           content='width=device-width, height=device-height, initial-scale=1'
         />
       </head>
-      <body className={inter.className}>
+      <body className={cn(inter.className, 'overflow-x-hidden')} >
         <Header />
         <main className='pt-[var(--navigation-height)] bg-page-gradient'>
           {children}

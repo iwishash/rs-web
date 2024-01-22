@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../../button";
 import { fontStim, fontDetection, fontAkas } from "../../logos/svgLogos";
 import { Product } from "./product";
@@ -18,11 +19,17 @@ export default function SectionProductsA() {
               <Product.SubTitle subTitle="음식을 삼키도록 도와주는 의료기기"/>
               <Product.Desc desc="RS-STIM은 환자의 목에 패드를 부착, 전기자극으로 식도의 근육을 이완시켜 음식물을 삼키도록 해 줍니다."/>
             </div>
-            <div className="py-8 md:pl-12"><Button className="w-full md:w-[34rem] py-10" href='/'>자세히 보기</Button></div>
+            <div className="py-8 md:pl-12 z-10">
+              <Link href='/product/rs-stim'>
+                <Button className="w-full md:w-[34rem] py-10">
+                  자세히 보기
+                </Button>
+              </Link>
+            </div>
           </div>
           <div className="relative flex flex-col items-center justify-center flex-auto">
             <div className="relative z-10"><Product.Img imgSrc="/imgs/rs-stim-a.png" alt="RS-STIM image" width={171} height={254}/></div>
-            <div className="hidden md:block opacity-50 absolute bottom-[3rem]">
+            <div className="hidden md:block opacity-25 absolute bottom-[3rem]">
               <Stage />
             </div>
           </div>
@@ -40,11 +47,17 @@ export default function SectionProductsA() {
               <Product.SubTitle subTitle="연하장애 상태 모니터링 의료기기"/>
               <Product.Desc desc="RS-DETECTION으로 환자의 식전, 식후 목소리 분석을 통해 연하장애 상태를 확인 할수 있습니다."/>
             </div>
-            <div className="py-8 md:pl-12"><Button className="w-full md:w-[34rem] py-10" href='/'>자세히 보기</Button></div>
+            <div className="py-8 md:pl-12 z-10">
+              <Link href='/product/rs-detection'>
+                <Button className="w-full md:w-[34rem] py-10">
+                  자세히 보기
+                </Button>
+              </Link>
+            </div>
           </div>
           <div className="relative flex flex-col items-center justify-center flex-auto">
             <div className="relative z-10"><Product.Img imgSrc="/imgs/rs-detection-a.png" alt="RS-STIM image" width={88} height={0}/></div>
-            <div className="hidden md:block opacity-50 absolute bottom-[3rem]">
+            <div className="hidden md:block opacity-25 absolute bottom-[3rem]">
               <Stage />
             </div>
           </div>
@@ -62,11 +75,17 @@ export default function SectionProductsA() {
               <Product.SubTitle subTitle="VFSS 영상 판독 의료 소프트웨어"/>
               <Product.Desc desc="AKAS-01은 VFSS 영상 분석을 통해 환자의 연하장애 상태를 정량적으로 판독할 수 있는 의료 소프트웨어 입니다."/>
             </div>
-            <div className="py-8 md:pl-12"><Button className="w-full md:w-[34rem] py-10" href='/'>자세히 보기</Button></div>
+            <div className="py-8 md:pl-12 z-10">
+              <Link href='/product/rs-akas'>
+                <Button className="w-full md:w-[34rem] py-10">
+                  자세히 보기
+                </Button>
+              </Link>
+            </div>
           </div>
           <div className="relative flex flex-col items-center justify-center flex-auto">
             <div className="relative z-10"><Product.Img imgSrc="/imgs/rs-akas-a.png" alt="RS-STIM image" width={242} height={254}/></div>
-            <div className="hidden md:block opacity-50 absolute bottom-[3rem]">
+            <div className="hidden md:block opacity-25 absolute bottom-[3rem]">
               <Stage />
             </div>
           </div>

@@ -102,7 +102,7 @@ const Header = () => {
               )}
             >
               <li>
-                <Link href={'#'}>제품</Link>
+                <Link href={'/product'}>제품</Link>
               </li>
               <li>
                 <Link href={'#'}>연구성과</Link>
